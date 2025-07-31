@@ -23,7 +23,7 @@
     header img {
       border-radius: 50%;
       width: 130px;
-      height: 140px;
+      height: 130px;
       border: 4px solid #fff;
       margin-bottom: 15px;
     }
@@ -64,12 +64,21 @@
       box-shadow: 5px 5px 15px #c9dce9, -5px -5px 15px #ffffff;
     }
 
-    .contact a {
-      display: inline-block;
-      margin-right: 15px;
+    .contact-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    .contact-item img {
+      width: 20px;
+      margin-right: 10px;
+    }
+
+    a {
       color: #1b4f72;
       text-decoration: none;
-      margin-bottom: 8px;
     }
 
     footer {
@@ -83,12 +92,26 @@
     .highlight {
       color: #1982c4;
     }
+
+    .education-entry {
+      margin-bottom: 15px;
+    }
+
+    .education-entry h4 {
+      margin: 0;
+      font-size: 17px;
+    }
+
+    .education-entry p {
+      margin: 3px 0 0;
+      font-size: 15px;
+    }
   </style>
 </head>
 <body>
 
   <header>
-    <img src="3968752a-de25-41d8-a0c7-41272f783e7d.jpg" alt="Profile Picture">
+    <img src="your-profile.jpg" alt="Profile Picture">
     <h1>Palleti Raga Sowmya</h1>
     <p>B.Tech in Computer Science | Aspiring Data Scientist</p>
   </header>
@@ -97,13 +120,45 @@
 
     <div class="section">
       <h2>Contact</h2>
-      <div class="contact">
-        <a href="mailto:palletiragasowmya@gmail.com">palletiragasowmya@gmail.com</a>
-        <a href="tel:+917780836424">+91 77808 36424</a><br>
-        <a href="https://linkedin.com/in/palleti-raga-sowmya-450549283">LinkedIn</a>
-        <a href="https://github.com/ragasowmya7780">GitHub</a>
-        <a href="https://leetcode.com/u/Raga_sowmya/">LeetCode</a>
-        <a href="https://www.hackerrank.com/profile/586_DA_B">HackerRank</a>
+      <div class="contact-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" />
+        <span>palletiragasowmya@gmail.com</span>
+      </div>
+      <div class="contact-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/455/455705.png" alt="Phone" />
+        <span>+91 77808 36424</span>
+      </div>
+      <div class="contact-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" />
+        <a href="https://linkedin.com/in/palleti-raga-sowmya-450549283" target="_blank">linkedin.com/in/palleti-raga-sowmya</a>
+      </div>
+      <div class="contact-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />
+        <a href="https://github.com/ragasowmya7780" target="_blank">github.com/ragasowmya7780</a>
+      </div>
+      <div class="contact-item">
+        <img src="https://cdn.iconscout.com/icon/free/png-256/hackerrank-3628755-3030007.png" alt="HackerRank" />
+        <a href="https://www.hackerrank.com/profile/586_DA_B" target="_blank">hackerrank.com/profile/586_DA_B</a>
+      </div>
+      <div class="contact-item">
+        <img src="https://assets.leetcode.com/static_assets/public/icons/favicon-96x96.png" alt="LeetCode" />
+        <a href="https://leetcode.com/u/Raga_sowmya/" target="_blank">leetcode.com/u/Raga_sowmya</a>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <div class="education-entry">
+        <h4>Bachelor of Technology (B.Tech) in Computer Science and Engineering</h4>
+        <p>Alliance University | Year of Graduation: 2026 | CGPA: 6.7</p>
+      </div>
+      <div class="education-entry">
+        <h4>12th Grade (TSBIE)</h4>
+        <p>Narayana Junior College, Hyderabad | Year: 2022 | Percentage: 94%</p>
+      </div>
+      <div class="education-entry">
+        <h4>10th Grade (SSC)</h4>
+        <p>Siva Sai High School, Kondapuram | BSEAP | Year: 2020 | Percentage: 98%</p>
       </div>
     </div>
 
@@ -143,8 +198,7 @@
         <h3>Intern at <span class="highlight">Edunet Foundation</span></h3>
         <p><strong>Duration:</strong> January 2025 – February 2025</p>
         <p>
-          Worked on foundational projects in data analytics and visualization using Python and Power BI.
-          Gained exposure to real-time dashboard creation, ETL processes, and storytelling through charts.
+         During my internship, I developed a machine learning-based system capable of predicting multiple diseases such as diabetes, heart disease, and liver disease from user-input health metrics. The project involved:
         </p>
       </div>
     </div>
